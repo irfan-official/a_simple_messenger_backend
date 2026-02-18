@@ -15,7 +15,7 @@ export { httpServer };
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with the frontend origin
+    origin: "http://13.51.64.58:5173", // Replace with the frontend origin
     methods: ["GET", "POST"],
     credentials: true,
   })
